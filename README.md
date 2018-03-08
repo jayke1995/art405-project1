@@ -1,6 +1,6 @@
-# Tailwind CSS Webpack Starter Project
+# Tailwind Cubes Project
 
-This is an example of a super simple Webpack setup for using [Tailwind CSS](https://tailwindcss.com).
+This is an example of a Cubes website for using [Tailwind CSS](https://tailwindcss.com).
 
 To get started, clone the project and install the dependencies:
 
