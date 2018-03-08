@@ -25,3 +25,6 @@ You can play around with `/index.html` to see the effects of your changes.
 ## Contributing
 
 Have a lot of experience with Webpack and suggestions on how we could improve this starter template? We'd love a PR!
+
+Demo page link:https://art405-projects.000webhostapp.com/project1.html
+Documentation page link:https://art405-projects.000webhostapp.com/documetation.html 
