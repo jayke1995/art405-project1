@@ -1,644 +1,638 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Documentation</title>
-  </head>
-  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-  <link rel="stylesheet" href="./dist/styles.css">
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>Documentation</title>
+</head>
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<link rel="stylesheet" href="./dist/styles.css">
+<body>
 
-    <div class="flex md:flex-row-reverse flex-wrap">
-      <!-- right side -->
-      <div class="w-full md:w-3/4 p-4 text-black">
 
-        <!-- buttons -->
+<!-- nav -->
+<div class="flex justify-center flex-wrap bg-blue-dark text-white shadow-md p-6">
+<h1>Documentation</h1>
 
-        <div class="container ml-8 mt-8 bg-grey-light border-2 border-black rounded mb-6 w-auto" id="button">
+</div>
 
-            <button class="bg-white hover:bg-grey-light text-black text-xs py-1 px-2 rounded-full hidden xl:block">Search</button>
-            <br>
-            <button class="bg-blue hover:bg-blue-dark text-white text-xs py-1 px-2 rounded-full"><h4>Let's Start</h4></button>
-            <br>
-            <br>
-            <button class="bg-blue hover:bg-blue-dark text-white text-xs py-1 px-2 rounded-full"><h4>Explore</h4></button>
+<!-- end nav -->
 
-            <pre><code class="html overflow-auto">
-&lt;button class=&quot;bg-white hover:bg-grey-light text-black text-xs py-1 px-2 rounded-full
-ml-8 hidden xl:block&quot;&gt;Search
-&lt;/button&gt;
-&lt;button class=&quot;bg-blue hover:bg-blue-dark text-white text-xs py-1 px-2
-rounded-full&quot;&gt;&lt;h4&gt;Let's Start&lt;/h4&gt;&lt;/button&gt;
-&lt;button class=&quot;bg-blue hover:bg-blue-dark text-white text-xs py-1 px-2
-rounded-full mb-4&quot;&gt;&lt;h4&gt;Explore&lt;/h4&gt;&lt;/button&gt;
-            </code></pre>
-        <a href="#top"> <h4>back to top</h4> </a>
 
+  <div class="flex md:flex-row-reverse flex-wrap">
+    <!-- right side -->
+    <div class="w-full md:w-3/4 p-4 text-black">
+
+<!-- Badges -->
+<div class="ml-8" id="badge">
+<h1>Badges</h1>
+</div>
+<div class="justify-center flex p-4" >
+
+  <div class="rounded-full h-16 w-16 flex items-center justify-center bg-blue font-bold text-lg">TOP</div>
+
+</div>
+
+  <div class="container ml-8  bg-grey-light border-2 border-black rounded mb-6 overflow-x-scroll">
+    <pre><code class="html">
+&lt;div class=&quot;rounded-full h-16 w-16 flex items-center justify-center bg-blue font-bold text-lg&quot;&gt;TOP&lt;/div&gt;
+    </code></pre>
+  </div>
+
+<!-- end of Badges -->
+<div class="ml-8" id="button">
+<h1>Buttons</h1>
+</div>
+      <!-- buttons -->
+      <div class="justify-center flex p-6" >
+
+        <div class="pr-3">
+          <button class="bg-white hover:bg-grey-light text-black text-lg py-1 px-2 rounded-full border-black border-2">Search</button>
         </div>
-        <!-- end button -->
+        <div class="pr-3">
+        <button class="bg-blue hover:bg-blue-dark text-white text-lg py-1 px-2 rounded-full"><h4>Let's Start</h4></button>
+        </div>
+        <button class="bg-blue hover:bg-blue-dark text-white text-lg py-1 px-2 rounded-full"><h4>Explore</h4></button>
 
-        <!-- cards -->
+      </div>
 
-        <div class="container ml-8 mt-8 bg-grey-light border-2 border-black rounded mb-6  w-auto" id="card">
 
-          <div class="w-full md:w-1/2 lg:w-1/4 px-2 bg-white">
+      <div class="container ml-8  bg-grey-light border-2 border-black rounded mb-6 w-auto overflow-x-scroll">
 
-              <div class="rounded overflow-hidden shadow-lg text-center">
-                <i class="fas fa-shield-alt text-blue icon-size mt-4" ></i>
-                <div class="px-6 py-4">
-                  <div class="font-bold text-xl mb-2">Anti-virus Protection</div>
-                  <p class="text-grey-darker text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                  </p>
+        <pre><code class="html">
+&lt;button class=&quot;bg-white hover:bg-grey-light text-black text-xs py-1 px-2 rounded-full&quot;&gt;Search&lt;/button&gt;
 
-                </div>
-                <button class="bg-blue hover:bg-blue-dark text-white text-xs py-1 px-2 rounded-full mb-4"><h4>Explore</h4></button>
-              </div>
+&lt;button class=&quot;bg-blue hover:bg-blue-dark text-white text-xs py-1 px-2 rounded-full&quot;&gt;&lt;h4&gt;Let's Start&lt;/h4&gt;&lt;/button&gt;
+
+&lt;button class=&quot;bg-blue hover:bg-blue-dark text-white text-xs py-1 px-2 rounded-full&quot;&gt;&lt;h4&gt;Explore&lt;/h4&gt;&lt;/button&gt;
+        </code></pre>
+      </div>
+      <!-- end button -->
+      <div class="ml-8" id="card">
+      <h1>Cards</h1>
+      </div>
+      <!-- cards -->
+      <div class="justify-center flex p-2" >
+      <div class="w-full md:w-1/2 lg:w-1/4 px-2 bg-white shadow-md">
+          <div class="rounded overflow-hidden text-center">
+            <i class="fas fa-shield-alt text-blue icon-size mt-4" ></i>
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">Anti-virus Protection</div>
+              <p class="text-grey-darker text-base">
+                Lorem ia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+              </p>
+            </div>
+            <button class="bg-blue hover:bg-blue-dark text-white text-xs py-1 px-2 rounded-full mb-4"><h4>Explore</h4></button>
           </div>
-
-            <pre><code class="html overflow-auto">
-&lt;div class=&quot;rounded overflow-hidden shadow-lg text-center&quot;&gt;
-&lt;i class=&quot;fas fa-shield-alt text-blue icon-size mt-4&quot; &gt;&lt;/i&gt;
-&lt;div class=&quot;px-6 py-4&quot;&gt;
-&lt;p class=&quot;text-grey-darker text-base&quot;&gt;
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et
-perferendis eaque, exercitationem praesentium nihil.
-&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;button class=&quot;bg-blue hover:bg-blue-dark text-white text-xs py-1 px-2 rounded-full mb-4
-&quot;&gt;&lt;h4&gt;Explore&lt;/h4&gt;&lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-            </code></pre>
-        <a href="#top"> <h4>back to top</h4> </a>
-
         </div>
+      </div>
 
-        <!-- end cards -->
+      <div class="container ml-8 mt-8 bg-grey-light border-2 border-black rounded mb-6 overflow-x-scroll">
 
-        <!-- footer -->
-
-        <div class="container ml-8 mt-8 bg-grey-light border-2 border-black rounded mb-6  w-auto mr-8" id="footer">
-
-          <footer class="flex bg-blue-dark h-auto pb-4">
-          <!-- wrapper -->
-              <div class="container mx-auto mt-6 text-center text-white text-xs">
-                <div class="flex mb-6 text-left text-xs text-white leading-normal">
-                  <!-- left -->
-                    <div class="w-1/3 h-auto">
-                      <ul class="list-reset">
-                        <li>Home</li>
-                        <li>Services</li>
-                        <li>Gallery</li>
-                        <li>Contact</li>
-                        <li>FAQ</li>
-                      </ul>
-                    </div>
-                    <!-- center -->
-                    <div class="w-1/3 h-auto">
-                      <ul class="list-reset">
-                        <li>Business</li>
-                        <li>Design</li>
-                        <li>Culture</li>
-                        <li>Edit</li>
-                      </ul>
-                    </div>
-                    <!-- right -->
-                    <div class="w-1/3 h-auto">
-                      <ul class="list-reset">
-                        <li>Connectivities</li>
-                        <li>Career</li>
-                        <li>Gallery</li>
-                        <li>Terms & Condition</li>
-                        <li>Site Map</li>
-                      </ul>
-                    </div>
-
-                </div>
-                <h4>Copyright © 2018 Wedsite Cubes</h4>
-              </div>
-          <!-- end of wrapper -->
-
-          </footer>
-
-            <pre><code class="html overflow-auto">
-&lt;footer class=&quot;flex bg-blue-dark h-auto pb-4&quot;&gt;
-&lt;!-- wrapper --&gt;
-&lt;div class=&quot;container mx-auto mt-6 text-center text-white text-xs&quot;&gt;
-&lt;div class=&quot;flex mb-6 text-left text-xs text-white leading-normal&quot;&gt;
-&lt;!-- left --&gt;
-&lt;div class=&quot;w-1/3 h-auto&quot;&gt;
-&lt;ul class=&quot;list-reset&quot;&gt;
-&lt;li&gt;Home&lt;/li&gt;
-&lt;li&gt;Services&lt;/li&gt;
-&lt;li&gt;Gallery&lt;/li&gt;
-&lt;li&gt;Contact&lt;/li&gt;
-&lt;li&gt;FAQ&lt;/li&gt;
-&lt;/ul&gt;
+        <pre><code class="html overflow-auto">
+&lt;div class=&quot;w-full md:w-1/2 lg:w-1/4 px-2 bg-white shadow-md&quot;&gt;
+  &lt;div class=&quot;rounded overflow-hidden text-center&quot;&gt;
+    &lt;i class=&quot;fas fa-shield-alt text-blue icon-size mt-4&quot; &gt;&lt;/i&gt;
+    &lt;div class=&quot;px-6 py-4&quot;&gt;
+      &lt;div class=&quot;font-bold text-xl mb-2&quot;&gt;Anti-virus Protection&lt;/div&gt;
+      &lt;p class=&quot;text-grey-darker text-base&quot;&gt;
+        Lorem ia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+      &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;button class=&quot;bg-blue hover:bg-blue-dark text-white text-xs py-1 px-2 rounded-full mb-4&quot;&gt;&lt;h4&gt;Explore&lt;/h4&gt;&lt;/button&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
-&lt;!-- center --&gt;
-&lt;div class=&quot;w-1/3 h-auto&quot;&gt;
-&lt;ul class=&quot;list-reset&quot;&gt;
-&lt;li&gt;Business&lt;/li&gt;
-&lt;li&gt;Design&lt;/li&gt;
-&lt;li&gt;Culture&lt;/li&gt;
-&lt;li&gt;Edit&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;!-- right --&gt;
-&lt;div class=&quot;w-1/3 h-auto&quot;&gt;
-&lt;ul class=&quot;list-reset&quot;&gt;
-&lt;li&gt;Connectivities&lt;/li&gt;
-&lt;li&gt;Career&lt;/li&gt;
-&lt;li&gt;Gallery&lt;/li&gt;
-&lt;li&gt;Terms &amp; Condition&lt;/li&gt;
-&lt;li&gt;Site Map&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
+        </code></pre>
+      </div>
+      <div class="container ml-8 mb-8 justify-center" >
+      <a href="#top"> <h4>Back to top</h4> </a>
+      </div>
 
-&lt;/div&gt;
-&lt;h4&gt;Copyright &copy; 2018 Wedsite Cubes&lt;/h4&gt;
-&lt;/div&gt;
+<!-- end cards -->
+<div class="ml-8" id="footer">
+<h1>Footer</h1>
+</div>
+      <div class="container ml-8 mt-8 justify-center" >
 
-&lt;/footer&gt;
-            </code></pre>
-        <a href="#top"> <h4>back to top</h4> </a>
-
-        </div>
-
-        <!-- end footer -->
-
-        <!-- forms -->
-
-        <div class="container ml-8 mt-8 bg-grey-light border-2 border-black rounded mb-6  w-auto" id="form">
-
-          <div class="container mx-auto">
-
-            <div class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 my-2">
-              <div class="-mx-3 md:flex mb-6">
-                <div class="md:w-1/2 px-3 mb-6 md:mb-0">
-                  <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2">
-                    First Name
-                  </label>
-                  <input class="appearance-none block w-full bg-grey-lighter text-grey-darker rounded py-3 px-4 mb-3" type="text" placeholder="Enter your first name here">
-
-                </div>
-
-                <div class="md:w-1/2 px-3">
-                  <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2">
-                    Last Name
-                  </label>
-                  <input class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4" type="text" placeholder="Enter your last name here">
-                </div>
-              </div>
-
-              <div class="-mx-3 md:flex mb-6">
-                <div class="md:w-full px-3">
-                  <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2">
-                    Email Address
-                  </label>
-                  <input class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 mb-3" type="text" placeholder="Enter your email here">
-                </div>
-              </div>
-
-              <div class="-mx-3 md:flex mb-6">
-                <div class="md:w-full px-3">
-                  <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2">
-                    Comment:
-                  </label>
-                  <textarea class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 h-64">
-                  </textarea>
-                </div>
-              </div>
-                <button class="bg-blue hover:bg-blue-dark text-white text-xs py-1 px-2 rounded-full"><h4>Submit</h4></button>
-
-
-              </div>
-
+      <!-- footer -->
+      <footer class="flex bg-blue-dark h-auto">
+        <!-- wrapper -->
+        <div class="container mx-auto mt-6 text-center text-white text-lg">
+          <div class="flex mb-6 text-left leading-normal">
+            <!-- left -->
+            <div class="w-1/3 h-auto">
+              <ul class="list-reset">
+                <li>Home</li>
+                <li>Services</li>
+                <li>Gallery</li>
+                <li>Contact</li>
+                <li>FAQ</li>
+              </ul>
+            </div>
+            <!-- center -->
+            <div class="w-1/3 h-auto">
+              <ul class="list-reset">
+                <li>Business</li>
+                <li>Design</li>
+                <li>Culture</li>
+                <li>Edit</li>
+              </ul>
+            </div>
+            <!-- right -->
+            <div class="w-1/3 h-auto">
+              <ul class="list-reset">
+                <li>Connectivities</li>
+                <li>Career</li>
+                <li>Gallery</li>
+                <li>Terms & Condition</li>
+                <li>Site Map</li>
+              </ul>
             </div>
 
-            <pre><code class="html overflow-auto">
-&lt;div class=&quot;container mx-auto&quot;&gt;
+          </div>
+          <h4>Copyright © 2018 Wedsite Cubes</h4>
+        </div>
+        <!-- end of wrapper -->
+      </footer>
+        </div>
 
+      <div class="container ml-8 mt-8 bg-grey-light border-2 border-black rounded mb-6  w-auto mr-8 overflow-y-scroll">
+
+
+<pre><code class="html overflow-auto">
+&lt;footer class=&quot;flex bg-blue-dark h-auto&quot;&gt;
+  &lt;!-- wrapper --&gt;
+  &lt;div class=&quot;container mx-auto mt-6 text-center text-white text-lg&quot;&gt;
+    &lt;div class=&quot;flex mb-6 text-left leading-normal&quot;&gt;
+      &lt;!-- left --&gt;
+      &lt;div class=&quot;w-1/3 h-auto&quot;&gt;
+        &lt;ul class=&quot;list-reset&quot;&gt;
+          &lt;li&gt;Home&lt;/li&gt;
+          &lt;li&gt;Services&lt;/li&gt;
+          &lt;li&gt;Gallery&lt;/li&gt;
+          &lt;li&gt;Contact&lt;/li&gt;
+          &lt;li&gt;FAQ&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;!-- center --&gt;
+      &lt;div class=&quot;w-1/3 h-auto&quot;&gt;
+        &lt;ul class=&quot;list-reset&quot;&gt;
+          &lt;li&gt;Business&lt;/li&gt;
+          &lt;li&gt;Design&lt;/li&gt;
+          &lt;li&gt;Culture&lt;/li&gt;
+          &lt;li&gt;Edit&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;!-- right --&gt;
+      &lt;div class=&quot;w-1/3 h-auto&quot;&gt;
+        &lt;ul class=&quot;list-reset&quot;&gt;
+          &lt;li&gt;Connectivities&lt;/li&gt;
+          &lt;li&gt;Career&lt;/li&gt;
+          &lt;li&gt;Gallery&lt;/li&gt;
+          &lt;li&gt;Terms &amp; Condition&lt;/li&gt;
+          &lt;li&gt;Site Map&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+
+    &lt;/div&gt;
+    &lt;h4&gt;Copyright &copy; 2018 Wedsite Cubes&lt;/h4&gt;
+  &lt;/div&gt;
+  &lt;!-- end of wrapper --&gt;
+&lt;/footer&gt;
+        </code></pre>
+      </div>
+      <div class="container ml-8 mb-8 justify-center" >
+      <a href="#top"> <h4>Back to top</h4> </a>
+      </div>
+
+      <!-- end footer -->
+      <div class="ml-8" id="form">
+      <h1>Form</h1>
+      </div>
+<div class="container ml-8 mt-8 justify-center" >
+      <!-- forms -->
+      <div class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 my-2">
+        <div class="-mx-3 md:flex mb-6">
+          <div class="md:w-1/2 px-3 mb-6 md:mb-0">
+            <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2">
+              First Name
+            </label>
+            <input class="appearance-none block w-full bg-grey-lighter text-grey-darker rounded py-3 px-4 mb-3" type="text" placeholder="Enter your first name here">
+          </div>
+
+          <div class="md:w-1/2 px-3">
+            <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2">
+              Last Name
+            </label>
+            <input class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4" type="text" placeholder="Enter your last name here">
+          </div>
+        </div>
+
+        <div class="-mx-3 md:flex mb-6">
+          <div class="md:w-full px-3">
+            <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2">
+              Email Address
+            </label>
+            <input class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 mb-3" type="text" placeholder="Enter your email here">
+          </div>
+        </div>
+
+        <div class="-mx-3 md:flex mb-6">
+          <div class="md:w-full px-3">
+            <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2">
+              Comment:
+            </label>
+            <textarea class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 h-64">
+            </textarea>
+          </div>
+        </div>
+
+        <button class="bg-blue hover:bg-blue-dark text-white text-xs py-1 px-2 rounded-full"><h4>Submit</h4></button>
+      </div>
+      </div>
+
+      <div class="container ml-8 mt-8 bg-grey-light border-2 border-black rounded mb-6 overflow-x-scroll">
+        <pre><code class="html overflow-auto">
 &lt;div class=&quot;bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 my-2&quot;&gt;
 &lt;div class=&quot;-mx-3 md:flex mb-6&quot;&gt;
-&lt;div class=&quot;md:w-1/2 px-3 mb-6 md:mb-0&quot;&gt;
-&lt;label class=&quot;block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2&quot;&gt;
-First Name
-&lt;/label&gt;
-&lt;input class=&quot;appearance-none block w-full bg-grey-lighter
-text-grey-darker rounded py-3 px-4 mb-3&quot; type=&quot;text&quot;
-placeholder=&quot;Enter your first name here&quot;&gt;
-
+  &lt;div class=&quot;md:w-1/2 px-3 mb-6 md:mb-0&quot;&gt;
+    &lt;label class=&quot;block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2&quot;&gt;
+      First Name
+    &lt;/label&gt;
+    &lt;input class=&quot;appearance-none block w-full bg-grey-lighter text-grey-darker rounded py-3 px-4 mb-3&quot; type=&quot;text&quot; placeholder=&quot;Enter your first name here&quot;&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;md:w-1/2 px-3&quot;&gt;
-&lt;label class=&quot;block uppercase tracking-wide
-text-grey-darker text-xs font-bold mb-2&quot;&gt;
-Last Name
-&lt;/label&gt;
-&lt;input class=&quot;appearance-none block w-full bg-grey-lighter
-text-grey-darker border border-grey-lighter rounded py-3 px-4&quot;
-type=&quot;text&quot; placeholder=&quot;Enter your last name here&quot;&gt;
-&lt;/div&gt;
+    &lt;label class=&quot;block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2&quot;&gt;
+      Last Name
+    &lt;/label&gt;
+    &lt;input class=&quot;appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4&quot; type=&quot;text&quot; placeholder=&quot;Enter your last name here&quot;&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;-mx-3 md:flex mb-6&quot;&gt;
-&lt;div class=&quot;md:w-full px-3&quot;&gt;
-&lt;label class=&quot;block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2&quot;&gt;
-Email Address
-&lt;/label&gt;
-&lt;input class=&quot;appearance-none block w-full bg-grey-lighter text-grey-darker
-border border-grey-lighter rounded py-3 px-4 mb-3&quot; type=&quot;text&quot;
-placeholder=&quot;Enter your email here&quot;&gt;
-&lt;/div&gt;
+  &lt;div class=&quot;md:w-full px-3&quot;&gt;
+    &lt;label class=&quot;block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2&quot;&gt;
+      Email Address
+    &lt;/label&gt;
+    &lt;input class=&quot;appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 mb-3&quot; type=&quot;text&quot; placeholder=&quot;Enter your email here&quot;&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;-mx-3 md:flex mb-6&quot;&gt;
-&lt;div class=&quot;md:w-full px-3&quot;&gt;
-&lt;label class=&quot;block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2&quot;&gt;
-Comment:
-&lt;/label&gt;
-&lt;textarea class=&quot;appearance-none block w-full bg-grey-lighter text-grey-darker
-border border-grey-lighter rounded py-3 px-4 h-64&quot;&gt;
-&lt;/textarea&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;button class=&quot;bg-blue hover:bg-blue-dark text-white text-xs py-1 px-2
-rounded-full&quot;&gt;&lt;h4&gt;Submit&lt;/h4&gt;&lt;/button&gt;
-
-
+  &lt;div class=&quot;md:w-full px-3&quot;&gt;
+    &lt;label class=&quot;block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2&quot;&gt;
+      Comment:
+    &lt;/label&gt;
+    &lt;textarea class=&quot;appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 h-64&quot;&gt;
+    &lt;/textarea&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
-            </code></pre>
-        <a href="#top"> <h4>back to top</h4> </a>
-
-        </div>
-
-        <!-- end forms -->
-
-          <!-- global navigation -->
-
-          <div class="container ml-8 mt-8 bg-grey-light border-2 border-black rounded mb-6  w-auto" id="globalnavigation">
-            <nav class="flex items-center justify-center flex-wrap bg-blue-dark p-6">
-
-              <span class="flex items-center flex-no-shrink text-white">
-                <i class="fas fa-cubes text-4xl"></i>
-              </span>
-
-              <ul class="flex font-bold list-reset text-xs">
-                  <li class="ml-8">
-                      <a class="no-underline text-white" href="#home">Home</a>
-                  </li>
-                  <li class="ml-8">
-                      <a class="no-underline text-white" href="#services">Services</a>
-                  </li>
-
-                  <li class="ml-8">
-                      <a class="no-underline text-white" href="#gallery">Gallery</a>
-                  </li>
-                  <li class="ml-8">
-                      <a class="no-underline text-white" href="#contact">Contact</a>
-                  </li>
-
-              </ul>
-              <input class="placeholder-grey-dark rounded bg-white border border-grey-light ml-8 pr-3 hidden xl:block "
-              placeholder="Search Here" style="position: relative;" type="text">
-
-              <button class="bg-white hover:bg-grey-light text-black text-xs py-1 px-2 rounded-full ml-8 hidden xl:block">Search
-                </button>
-            </nav>
-
-              <pre><code class="html overflow-auto">
-&lt;ul class=&quot;flex font-bold list-reset text-xs&quot;&gt;
-&lt;li class=&quot;ml-8&quot;&gt;
-&lt;a class=&quot;no-underline text-white&quot; href=&quot;#home&quot;&gt;Home&lt;/a&gt;
-&lt;/li&gt;
-&lt;li class=&quot;ml-8&quot;&gt;
-&lt;a class=&quot;no-underline text-white&quot; href=&quot;#services&quot;&gt;Services&lt;/a&gt;
-&lt;/li&gt;
-
-&lt;li class=&quot;ml-8&quot;&gt;
-&lt;a class=&quot;no-underline text-white&quot; href=&quot;#gallery&quot;&gt;Gallery&lt;/a&gt;
-&lt;/li&gt;
-&lt;li class=&quot;ml-8&quot;&gt;
-&lt;a class=&quot;no-underline text-white&quot; href=&quot;#contact&quot;&gt;Contact&lt;/a&gt;
-&lt;/li&gt;
-
-&lt;/ul&gt;
-              </code></pre>
-          <a href="#top"> <h4>back to top</h4> </a>
-
-          </div>
-
-          <!-- end global navigation -->
-
-        <!-- hero unit -->
-          <div class="container ml-8 mt-8 bg-grey-light border-2 border-black rounded mb-6  w-auto" id="HeroUnits">
-
-          <div class="flex bg-cover text-white text-3xl relative">
-            <div class="absolute items-center p-8">
-              <h1 class="text-lg text-xs md:text-3xl lg:text-5xl">Lorem ipsum dolor</h1>
-              <h3>Lorem ipsum dolor</h3>
-              <button class="bg-blue hover:bg-blue-dark text-white text-xs py-1 px-2 rounded-full"><h4>Button</h4></button>
-            </div>
-            <img class="flex-grow" src="https://s-media-cache-ak0.pinimg.com/originals/77/14/c7/7714c7d2d5d73f96053b8a0f98c86b07.jpg" alt="">
-          </div>
-
-          <pre><code class="html overflow-auto">
-&lt;div class=&quot;flex bg-cover text-white text-3xl relative&quot;&gt;
-&lt;div class=&quot;absolute items-center p-8&quot;&gt;
-&lt;h1 class=&quot;text-lg text-xs md:text-3xl lg:text-5xl&quot;&gt;Lorem ipsum dolor&lt;/h1&gt;
-&lt;h3&gt;Lorem ipsum dolor&lt;/h3&gt;
-&lt;button class=&quot;bg-blue hover:bg-blue-dark text-white text-xs py-1 px-2 rounded-full&quot;&gt;&lt;
-h4&gt;Button&lt;/h4&gt;&lt;/button&gt;
-&lt;/div&gt;
-&lt;img class=&quot;flex-grow&quot;
-src=&quot;https://s-media-cache-ak0.pinimg.com/originals/77/14/c7/
-7714c7d2d5d73f96053b8a0f98c86b07.jpg&quot;
-alt=&quot;&quot;&gt;
+&lt;button class=&quot;bg-blue hover:bg-blue-dark text-white text-xs py-1 px-2 rounded-full&quot;&gt;&lt;h4&gt;Submit&lt;/h4&gt;&lt;/button&gt;
 &lt;/div&gt;
 
-          </code></pre>
-        <a href="#top"> <h4>back to top</h4> </a>
-          </div>
+        </code></pre>
+      </div>
+      <div class="container ml-8 mb-8 justify-center" >
+      <a href="#top"> <h4>Back to top</h4> </a>
+      </div>
 
-          <!-- End hero unit -->
+      <!-- end forms -->
+      <div class="ml-8" id="globalnavigation">
+      <h1>Global Navigation</h1>
+      </div>
+      <!-- global navigation -->
+<div class="container ml-8 mt-8 justify-center" >
+      <nav class="flex items-center justify-center flex-wrap bg-blue-dark p-6">
+        <span class="flex items-center flex-no-shrink text-white">
+          <i class="fas fa-cubes text-4xl"></i>
+        </span>
+        <ul class="flex font-bold list-reset text-xs">
+          <li class="ml-8">
+            <a class="no-underline text-white" href="#home">Home</a>
+          </li>
+          <li class="ml-8">
+            <a class="no-underline text-white" href="#services">Services</a>
+          </li>
+          <li class="ml-8">
+            <a class="no-underline text-white" href="#gallery">Gallery</a>
+          </li>
+          <li class="ml-8">
+            <a class="no-underline text-white" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <input class="placeholder-grey-dark rounded bg-white border border-grey-light ml-8 pr-3 hidden xl:block "
+        placeholder="Search Here" style="position: relative;" type="text">
+        <button class="bg-white hover:bg-grey-light text-black text-xs py-1 px-2 rounded-full ml-8 hidden xl:block">Search
+        </button>
+      </nav>
+    </div>
 
-          <!-- navigation list -->
-
-              <div class="mx-auto bg-grey-light border-2 border-black rounded mb-6 ml-8 w-auto" id="navigationlist">
-
-              <nav class="flex items-center justify-center flex-wrap bg-blue-dark p-6">
-
-                <div class="flex items-center flex-no-shrink text-white">
-                  <i class="fas fa-cubes text-4xl"></i>
-                </div>
-
-                <ul class="flex font-bold list-reset text-xs">
-                    <li class="ml-8">
-                        <a class="no-underline text-white" href="#">Link 1</a>
-                    </li>
-                    <li class="ml-8">
-                        <a class="no-underline text-white" href="#">Link 2</a>
-                    </li>
-
-                    <li class="ml-8">
-                        <a class="no-underline text-white" href="#">Link 3</a>
-                    </li>
-                    <li class="ml-8">
-                        <a class="no-underline text-white" href="#">Link 4</a>
-                    </li>
-
-                </ul>
-                <input class="placeholder-grey-dark rounded bg-white border border-grey-light ml-8 pr-3 hidden xl:block "
-                placeholder="Search Here" style="position: relative;" type="text">
-
-                <button class="bg-white hover:bg-grey-light text-black text-xs py-1 px-2 rounded-full ml-8 hidden xl:block">Button
-                  </button>
-              </nav>
-
-              <pre><code class="html overflow-auto">
+      <div class="container ml-8 mt-8 bg-grey-light border-2 border-black rounded mb-6 overflow-x-scroll">
+        <pre><code class="html overflow-auto">
 &lt;nav class=&quot;flex items-center justify-center flex-wrap bg-blue-dark p-6&quot;&gt;
-&lt;div class=&quot;flex items-center flex-no-shrink text-white&quot;&gt;
-&lt;i class=&quot;fas fa-cubes text-4xl&quot;&gt;&lt;/i&gt;
-&lt;/div&gt;
+&lt;span class=&quot;flex items-center flex-no-shrink text-white&quot;&gt;
+  &lt;i class=&quot;fas fa-cubes text-4xl&quot;&gt;&lt;/i&gt;
+&lt;/span&gt;
 &lt;ul class=&quot;flex font-bold list-reset text-xs&quot;&gt;
-&lt;li class=&quot;ml-8&quot;&gt;
-&lt;a class=&quot;no-underline text-white&quot; href=&quot;#&quot;&gt;Link 1&lt;/a&gt;
-&lt;/li&gt;
-&lt;li class=&quot;ml-8&quot;&gt;
-&lt;a class=&quot;no-underline text-white&quot; href=&quot;#&quot;&gt;Link 2&lt;/a&gt;
-&lt;/li&gt;
-
-&lt;li class=&quot;ml-8&quot;&gt;
-&lt;a class=&quot;no-underline text-white&quot; href=&quot;#&quot;&gt;Link 3&lt;/a&gt;
-&lt;/li&gt;
-&lt;li class=&quot;ml-8&quot;&gt;
-&lt;a class=&quot;no-underline text-white&quot; href=&quot;#&quot;&gt;Link 4&lt;/a&gt;
-&lt;/li&gt;
-
+  &lt;li class=&quot;ml-8&quot;&gt;
+    &lt;a class=&quot;no-underline text-white&quot; href=&quot;#home&quot;&gt;Home&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;ml-8&quot;&gt;
+    &lt;a class=&quot;no-underline text-white&quot; href=&quot;#services&quot;&gt;Services&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;ml-8&quot;&gt;
+    &lt;a class=&quot;no-underline text-white&quot; href=&quot;#gallery&quot;&gt;Gallery&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;ml-8&quot;&gt;
+    &lt;a class=&quot;no-underline text-white&quot; href=&quot;#contact&quot;&gt;Contact&lt;/a&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
-&lt;input class=&quot;placeholder-grey-dark rounded bg-white border b
-order-grey-light ml-8 pr-3 hidden xl:block &quot;
+&lt;input class=&quot;placeholder-grey-dark rounded bg-white border border-grey-light ml-8 pr-3 hidden xl:block &quot;
 placeholder=&quot;Search Here&quot; style=&quot;position: relative;&quot; type=&quot;text&quot;&gt;
-
-&lt;button class=&quot;bg-white hover:bg-grey-light text-black text-xs py-1 px-2
-rounded-full ml-8 hidden xl:block&quot;&gt;Button
+&lt;button class=&quot;bg-white hover:bg-grey-light text-black text-xs py-1 px-2 rounded-full ml-8 hidden xl:block&quot;&gt;Search
 &lt;/button&gt;
 &lt;/nav&gt;
-              </code></pre>
-          <a href="#top"> <h4>back to top</h4> </a>
-            </div>
+        </code></pre>
+      </div>
+      <div class="container ml-8 mb-8 justify-center" >
+      <a href="#top"> <h4>Back to top</h4> </a>
+      </div>
+      <!-- end global navigation -->
 
-            <!-- end navigation list -->
-
-        <!-- Pagination -->
-
-        <div class="container ml-8 mt-8 bg-grey-light border-2 border-black rounded mb-6  w-auto" id="pagination">
-          <div class="container mx-auto">
-
-          <ul class="flex list-reset mt-8 rounded w-auto justify-center pb-8">
-            <li><a class="block hover:text-white hover:bg-blue text-black px-3 py-2 no-underline" href="#">Previous</a></li>
-            <li><a class="block hover:text-white bg-blue text-black px-3 py-2 no-underline" href="#">1</a></li>
-            <li><a class="block hover:text-white hover:bg-blue text-black px-3 py-2 no-underline" href="#">2</a></li>
-            <li><a class="block hover:text-white hover:bg-blue text-black px-3 py-2 no-underline" href="#">3</a></li>
-            <li><a class="block hover:text-white hover:bg-blue text-black px-3 py-2 no-underline" href="#">Next</a></li>
-          </ul>
-
-          </div>
-
-            <pre><code class="html overflow-auto">
-&lt;div class=&quot;container ml-8 mt-8 bg-grey-light border-2 border-black rounded mb-6
-float-left w-auto&quot;id=&quot;pagination&quot;&gt;&lt;div class=&quot;container mx-auto&quot;&gt;
-
-&lt;ul class=&quot;flex list-reset mt-8 rounded w-auto justify-center pb-8&quot;&gt;
-&lt;li&gt;&lt;a class=&quot;block hover:text-white hover:bg-blue text-white px-3 py-2 no-underline&quot;
-href=&quot;#&quot;&gt;Previous&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;block hover:text-white bg-blue text-white px-3 py-2 no-underline&quot;
-href=&quot;#&quot;&gt;1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;block hover:text-white hover:bg-blue text-white px-3 py-2 no-underline&quot;
-href=&quot;#&quot;&gt;2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;block hover:text-white hover:bg-blue text-white px-3 py-2 no-underline&quot;
-href=&quot;#&quot;&gt;3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;block hover:text-white hover:bg-blue text-white px-3 py-2 no-underline&quot;
-href=&quot;#&quot;&gt;Next&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;/div&gt;
-            </code></pre>
-        <a href="#top"> <h4>back to top</h4> </a>
-
+      <div class="ml-8" id="HeroUnits">
+      <h1>Hero Unit</h1>
+      </div>
+      <!-- hero unit -->
+      <div class="container ml-8 mt-8 justify-center" >
+      <div class="flex bg-cover text-white text-3xl relative">
+        <div class="absolute items-center p-8">
+          <h1 class="text-lg text-xs md:text-3xl lg:text-5xl">Lorem ipsum dolor</h1>
+          <h3>Lorem ipsum dolor</h3>
+          <button class="bg-blue hover:bg-blue-dark text-white text-xs py-1 px-2 rounded-full"><h4>Button</h4></button>
         </div>
+        <img class="flex-grow" src="https://s-media-cache-ak0.pinimg.com/originals/77/14/c7/7714c7d2d5d73f96053b8a0f98c86b07.jpg" alt="">
+      </div>
+      </div>
 
-        <!-- end Pagination -->
 
-        <!-- table -->
+      <div class="container ml-8 mt-8 bg-grey-light border-2 border-black rounded mb-6  overflow-x-scroll" >
 
-        <div class="container ml-8 mt-8 bg-grey-light border-2 border-black rounded mb-6 w-auto" id="table">
+        <pre><code class="html overflow-auto">
+&lt;div class=&quot;flex bg-cover text-white text-3xl relative&quot;&gt;
+  &lt;div class=&quot;absolute items-center p-8&quot;&gt;
+    &lt;h1 class=&quot;text-lg text-xs md:text-3xl lg:text-5xl&quot;&gt;Lorem ipsum dolor&lt;/h1&gt;
+    &lt;h3&gt;Lorem ipsum dolor&lt;/h3&gt;
+    &lt;button class=&quot;bg-blue hover:bg-blue-dark text-white text-xs py-1 px-2 rounded-full&quot;&gt;&lt;h4&gt;Button&lt;/h4&gt;&lt;/button&gt;
+  &lt;/div&gt;
+  &lt;img class=&quot;flex-grow&quot; src=&quot;https://s-media-cache-ak0.pinimg.com/originals/77/14/c7/7714c7d2d5d73f96053b8a0f98c86b07.jpg&quot; alt=&quot;&quot;&gt;
+&lt;/div&gt;
 
-          <!-- Gallery -->
+        </code></pre>
+      </div>
+      <div class="container ml-8 mb-8 justify-center" >
+      <a href="#top"> <h4>Back to top</h4> </a>
+      </div>
 
-            <!-- Three columns Gallery slideshow-->
-            <div class="px-2 bg-blue-dark mt-8 text-center text-white" id="gallery">
-              <h1 class="py-6">Gallery</h1>
-          <!-- container wrap -->
-              <div class="container mx-auto">
+      <!-- End hero unit -->
+
+      <div class="ml-8" id="navigationlist">
+      <h1>Navigation List</h1>
+      </div>
+      <!-- navigation list -->
+      <div class="container ml-8 mt-8 justify-center" >
+      <nav class="flex items-center justify-center flex-wrap bg-blue-dark p-6">
+        <div class="flex items-center flex-no-shrink text-white">
+          <i class="fas fa-cubes text-4xl"></i>
+        </div>
+        <ul class="flex font-bold list-reset text-xs">
+          <li class="ml-8">
+            <a class="no-underline text-white" href="#">Link 1</a>
+          </li>
+          <li class="ml-8">
+            <a class="no-underline text-white" href="#">Link 2</a>
+          </li>
+          <li class="ml-8">
+            <a class="no-underline text-white" href="#">Link 3</a>
+          </li>
+          <li class="ml-8">
+            <a class="no-underline text-white" href="#">Link 4</a>
+          </li>
+        </ul>
+        <input class="placeholder-grey-dark rounded bg-white border border-grey-light ml-8 pr-3 hidden xl:block "
+        placeholder="Search Here" style="position: relative;" type="text">
+        <button class="bg-white hover:bg-grey-light text-black text-xs py-1 px-2 rounded-full ml-8 hidden xl:block">Button
+        </button>
+      </nav>
+    </div>
+
+      <div class="container ml-8 mt-8 bg-grey-light border-2 border-black rounded mb-6  overflow-x-scroll" >
+
+        <pre><code class="html overflow-auto">
+&lt;nav class=&quot;flex items-center justify-center flex-wrap bg-blue-dark p-6&quot;&gt;
+  &lt;div class=&quot;flex items-center flex-no-shrink text-white&quot;&gt;
+    &lt;i class=&quot;fas fa-cubes text-4xl&quot;&gt;&lt;/i&gt;
+  &lt;/div&gt;
+  &lt;ul class=&quot;flex font-bold list-reset text-xs&quot;&gt;
+    &lt;li class=&quot;ml-8&quot;&gt;
+      &lt;a class=&quot;no-underline text-white&quot; href=&quot;#&quot;&gt;Link 1&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;ml-8&quot;&gt;
+      &lt;a class=&quot;no-underline text-white&quot; href=&quot;#&quot;&gt;Link 2&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;ml-8&quot;&gt;
+      &lt;a class=&quot;no-underline text-white&quot; href=&quot;#&quot;&gt;Link 3&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;ml-8&quot;&gt;
+      &lt;a class=&quot;no-underline text-white&quot; href=&quot;#&quot;&gt;Link 4&lt;/a&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;input class=&quot;placeholder-grey-dark rounded bg-white border border-grey-light ml-8 pr-3 hidden xl:block &quot;
+  placeholder=&quot;Search Here&quot; style=&quot;position: relative;&quot; type=&quot;text&quot;&gt;
+  &lt;button class=&quot;bg-white hover:bg-grey-light text-black text-xs py-1 px-2 rounded-full ml-8 hidden xl:block&quot;&gt;Button
+  &lt;/button&gt;
+&lt;/nav&gt;
+        </code></pre>
+      </div>
+      <div class="container ml-8 mb-8 justify-center" >
+      <a href="#top"> <h4>Back to top</h4> </a>
+      </div>
+
+      <!-- end navigation list -->
+
+      <div class="ml-8" id="pagination">
+      <h1>Pagination</h1>
+      </div>
+      <!-- Pagination -->
+      <div class="container justify-center" >
+
+        <ul class="flex list-reset mt-8 rounded w-auto justify-center pb-8">
+          <li><a class="block hover:text-white hover:bg-blue text-black px-3 py-2 no-underline" href="#">Previous</a></li>
+          <li><a class="block hover:text-white bg-blue text-black px-3 py-2 no-underline" href="#">1</a></li>
+          <li><a class="block hover:text-white hover:bg-blue text-black px-3 py-2 no-underline" href="#">2</a></li>
+          <li><a class="block hover:text-white hover:bg-blue text-black px-3 py-2 no-underline" href="#">3</a></li>
+          <li><a class="block hover:text-white hover:bg-blue text-black px-3 py-2 no-underline" href="#">Next</a></li>
+        </ul>
+
+      </div>
+      <div class="container ml-8  bg-grey-light border-2 border-black rounded mb-6 overflow-x-scroll">
+
+
+        <pre><code class="html overflow-auto">
+&lt;ul class=&quot;flex list-reset mt-8 rounded w-auto justify-center pb-8&quot;&gt;
+  &lt;li&gt;&lt;a class=&quot;block hover:text-white hover:bg-blue text-black px-3 py-2 no-underline&quot; href=&quot;#&quot;&gt;Previous&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a class=&quot;block hover:text-white bg-blue text-black px-3 py-2 no-underline&quot; href=&quot;#&quot;&gt;1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a class=&quot;block hover:text-white hover:bg-blue text-black px-3 py-2 no-underline&quot; href=&quot;#&quot;&gt;2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a class=&quot;block hover:text-white hover:bg-blue text-black px-3 py-2 no-underline&quot; href=&quot;#&quot;&gt;3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a class=&quot;block hover:text-white hover:bg-blue text-black px-3 py-2 no-underline&quot; href=&quot;#&quot;&gt;Next&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+        </code></pre>
+      </div>
+      <div class="container ml-8 mb-8 justify-center" >
+      <a href="#top"> <h4>Back to top</h4> </a>
+      </div>
+
+      <!-- end Pagination -->
+
+      <!-- table -->
+      <div class="ml-8" id="table">
+      <h1>Table</h1>
+      </div>
+      <!-- Gallery -->
+
+      <!-- Three columns Gallery slideshow-->
+      <div class="container ml-8 mt-8 justify-center" >
+      <div class="px-2 bg-blue-dark mt-8 text-center text-white" >
           <!-- Gallery first column -->
-              <div class="flex -mx-2">
-
-                <div class="w-1/3 px-2">
-                  <div class="bg-grey h-64">
-
-                  </div>
-                </div>
-
-                <div class="w-1/3 px-2">
-                  <div class="bg-grey h-64">
-
-                  </div>
-                </div>
-
-                <div class="w-1/3 px-2">
-                  <div class="bg-grey-light h-64">
-
-                  </div>
-                </div>
-
+          <div class="flex -mx-2">
+            <div class="w-1/3 px-2">
+              <div class="bg-grey h-64">
               </div>
+            </div>
+            <div class="w-1/3 px-2">
+              <div class="bg-grey h-64">
+              </div>
+            </div>
+            <div class="w-1/3 px-2">
+              <div class="bg-grey-light h-64">
+              </div>
+            </div>
+          </div>
           <!-- Gallery second column -->
           <div class="flex -mx-2 mt-8">
-
             <div class="w-1/3 px-2">
               <div class="bg-grey-light h-64"></div>
             </div>
-
             <div class="w-1/3 px-2">
               <div class="bg-grey h-64"></div>
             </div>
-
             <div class="w-1/3 px-2">
               <div class="bg-grey-light h-64"></div>
             </div>
-
           </div>
           <!-- end of Gallery -->
-              </div>
-
-            </div>
-            <pre><code class="html overflow-auto">
-&lt;div class=&quot;px-2 bg-blue-dark mt-8 text-center text-white&quot; id=&quot;gallery&quot;&gt;
-&lt;h1 class=&quot;py-6&quot;&gt;Gallery&lt;/h1&gt;
-&lt;!-- container wrap --&gt;
-&lt;div class=&quot;container mx-auto&quot;&gt;
-&lt;!-- Gallery first column --&gt;
-&lt;div class=&quot;flex -mx-2&quot;&gt;
-
-&lt;div class=&quot;w-1/3 px-2&quot;&gt;
-&lt;div class=&quot;bg-grey h-64&quot;&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;w-1/3 px-2&quot;&gt;
-&lt;div class=&quot;bg-grey h-64&quot;&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;w-1/3 px-2&quot;&gt;
-&lt;div class=&quot;bg-grey-light h-64&quot;&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;!-- Gallery second column --&gt;
-&lt;div class=&quot;flex -mx-2 mt-8&quot;&gt;
-
-&lt;div class=&quot;w-1/3 px-2&quot;&gt;
-&lt;div class=&quot;bg-grey-light h-64&quot;&gt;&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;w-1/3 px-2&quot;&gt;
-&lt;div class=&quot;bg-grey h-64&quot;&gt;&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;w-1/3 px-2&quot;&gt;
-&lt;div class=&quot;bg-grey-light h-64&quot;&gt;&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;!-- end of Gallery --&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-            </code></pre>
-        <a href="#top"> <h4>back to top</h4> </a>
-
-        </div>
-
-        <!-- end table -->
-
       </div>
-      <!-- end right side -->
-
-      <!-- left side -->
-      <div class="w-full md:w-1/4 p-4 text-center text-grey-darker">
-
-        <!-- side nav -->
-        <div class="container bg-white shadow my-2" id="top">
-          <ul class="list-reset">
-            <li >
-              <a href="#" class="no-underline block p-4 text-grey-darker font-bold border-purple hover:bg-grey-lighter border-r-4">Alerts</a>
-            </li>
-            <li >
-              <a href="#" class="no-underline block p-4 text-grey-darker font-bold border-grey-lighter hover:border-purple-light hover:bg-grey-lighter border-r-4">Badges</a>
-            </li>
-            <li >
-              <a href="#" class="no-underline block p-4 text-grey-darker font-bold border-grey-lighter hover:border-purple-light hover:bg-grey-lighter border-r-4">Breadcrumbs</a>
-            </li>
-            <li >
-              <a href="#button" class="no-underline block p-4 text-grey-darker font-bold border-grey-lighter hover:border-purple-light hover:bg-grey-lighter border-r-4">Buttons</a>
-            </li>
-            <li >
-              <a href="#card" class="no-underline block p-4 text-grey-darker font-bold border-grey-lighter hover:border-purple-light hover:bg-grey-lighter border-r-4">Cards</a>
-            </li>
-            <li >
-              <a href="#footer" class="no-underline block p-4 text-grey-darker font-bold border-grey-lighter hover:border-purple-light hover:bg-grey-lighter border-r-4">Footers</a>
-            </li >
-            <li>
-              <a href="#form" class="no-underline block p-4 text-grey-darker font-bold border-grey-lighter hover:border-purple-light hover:bg-grey-lighter border-r-4">Forms</a>
-            </li>
-            <li >
-              <a href="#globalnavigation" class="no-underline block p-4 text-grey-darker font-bold border-grey-lighter hover:border-purple-light hover:bg-grey-lighter border-r-4">Global Navigation</a>
-            </li>
-            <li >
-              <a href="#HeroUnits" class="no-underline block p-4 text-grey-darker font-bold border-grey-lighter hover:border-purple-light hover:bg-grey-lighter border-r-4">Hero Units</a>
-            </li >
-            <li >
-              <a href="#" class=" no-underline block p-4 text-grey-darker font-bold border-grey-lighter hover:border-purple-light hover:bg-grey-lighter border-r-4">Lists</a>
-            </li>
-            <li >
-              <a href="#" class="no-underline block p-4 text-grey-darker font-bold border-grey-lighter hover:border-purple-light hover:bg-grey-lighter border-r-4">Media Objects</a>
-            </li >
-            <li >
-              <a href="#navigationlist" class="no-underline block p-4 text-grey-darker font-bold border-grey-lighter hover:border-purple-light hover:bg-grey-lighter border-r-4">Navigation Lists</a>
-            </li>
-            <li >
-              <a href="#pagination" class="no-underline block p-4 text-grey-darker font-bold border-grey-lighter hover:border-purple-light hover:bg-grey-lighter border-r-4">Pagination</a>
-            </li >
-            <li >
-              <a href="#table" class="no-underline block p-4 text-grey-darker font-bold border-grey-lighter hover:border-purple-light hover:bg-grey-lighter border-r-4">Tables</a>
-            </li>
-          </ul>
-        </div>
-        <!-- end side nav -->
-
       </div>
+
+      <div class="container ml-8 mt-8 bg-grey-light border-2 border-black rounded mb-6">
+
+        <pre><code class="html overflow-auto">
+&lt;div class=&quot;px-2 bg-blue-dark mt-8 text-center text-white&quot; &gt;
+
+  &lt;div class=&quot;flex -mx-2&quot;&gt;
+    &lt;div class=&quot;w-1/3 px-2&quot;&gt;
+      &lt;div class=&quot;bg-grey h-64&quot;&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;w-1/3 px-2&quot;&gt;
+      &lt;div class=&quot;bg-grey h-64&quot;&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;w-1/3 px-2&quot;&gt;
+      &lt;div class=&quot;bg-grey-light h-64&quot;&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;flex -mx-2 mt-8&quot;&gt;
+    &lt;div class=&quot;w-1/3 px-2&quot;&gt;
+      &lt;div class=&quot;bg-grey-light h-64&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;w-1/3 px-2&quot;&gt;
+      &lt;div class=&quot;bg-grey h-64&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;w-1/3 px-2&quot;&gt;
+      &lt;div class=&quot;bg-grey-light h-64&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+        </code></pre>
+      </div>
+      <div class="container ml-8 mb-8 justify-center" >
+      <a href="#top"> <h4>Back to top</h4> </a>
+      </div>
+
+      <!-- end table -->
+
     </div>
+    <!-- end right side -->
+
+    <!-- left side -->
+    <div class="w-full md:w-1/4 text-center text-grey-darker">
+
+      <!-- side nav -->
+      <div class="container bg-white shadow my-2" id="top">
+        <ul class="list-reset">
+          <li >
+            <a href="#" class="no-underline block p-4 text-grey-darker font-bold border-grey-lighter hover:bg-grey-lighter border-r-4">Alerts</a>
+          </li>
+          <li >
+            <a href="#badge" class="no-underline block p-4 text-grey-darker font-bold border-grey-lighter hover:bg-grey-lighter border-r-4">Badges</a>
+          </li>
+          <li >
+            <a href="#" class="no-underline block p-4 text-grey-darker font-bold border-grey-lighter hover:bg-grey-lighter border-r-4">Breadcrumbs</a>
+          </li>
+          <li >
+            <a href="#button" class="no-underline block p-4 text-grey-darker font-bold border-grey-lighter hover:bg-grey-lighter border-r-4">Buttons</a>
+          </li>
+          <li >
+            <a href="#card" class="no-underline block p-4 text-grey-darker font-bold border-grey-lighter hover:bg-grey-lighter border-r-4">Cards</a>
+          </li>
+          <li >
+            <a href="#footer" class="no-underline block p-4 text-grey-darker font-bold border-grey-lighter hover:bg-grey-lighter border-r-4">Footers</a>
+          </li >
+          <li>
+            <a href="#form" class="no-underline block p-4 text-grey-darker font-bold border-grey-lighter hover:bg-grey-lighter border-r-4">Forms</a>
+          </li>
+          <li >
+            <a href="#globalnavigation" class="no-underline block p-4 text-grey-darker font-bold border-grey-lighter hover:bg-grey-lighter border-r-4">Global Navigation</a>
+          </li>
+          <li >
+            <a href="#HeroUnits" class="no-underline block p-4 text-grey-darker font-bold border-grey-lighter hover:bg-grey-lighter border-r-4">Hero Units</a>
+          </li >
+          <li >
+            <a href="#" class=" no-underline block p-4 text-grey-darker font-bold border-grey-lighter hover:bg-grey-lighter border-r-4">Lists</a>
+          </li>
+          <li >
+            <a href="#" class="no-underline block p-4 text-grey-darker font-bold border-grey-lighter hover:bg-grey-lighter border-r-4">Media Objects</a>
+          </li >
+          <li >
+            <a href="#navigationlist" class="no-underline block p-4 text-grey-darker font-bold border-grey-lighter hover:bg-grey-lighter border-r-4">Navigation Lists</a>
+          </li>
+          <li >
+            <a href="#pagination" class="no-underline block p-4 text-grey-darker font-bold border-grey-lighter hover:bg-grey-lighter border-r-4">Pagination</a>
+          </li >
+          <li >
+            <a href="#table" class="no-underline block p-4 text-grey-darker font-bold border-grey-lighter hover:bg-grey-lighter border-r-4">Tables</a>
+          </li>
+        </ul>
+      </div>
+      <!-- end side nav -->
+
+    </div>
+  </div>
 
 
-  </body>
+</body>
 </html>
