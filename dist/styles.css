@@ -9,14 +9,14 @@
  *    IE on Windows Phone and in iOS.
  */
 
-input[type=text] {
+.input1[type=text] {
      width: 150px;
      -webkit-transition: width 0.4s ease-in-out;
      transition: width 0.4s ease-in-out;
  }
 
  /* When the input field gets focus, change its width to 100% */
- input[type=text]:focus {
+ .input1[type=text]:focus {
      width: 20%;
  }
 
